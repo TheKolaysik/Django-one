@@ -1,0 +1,116 @@
+html {
+}
+
+body {
+    background: linear-gradient(to bottom right, yellow, grey, green);
+    background-attachment: fixed;
+}
+
+
+
+@keyframes fix {
+    0% {
+        transform: translateY(-200%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.nav-link {
+    color: white;
+
+}
+
+.nav-link:hover {
+     color: yellow;
+ }
+
+
+
+
+
+
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    justify-items: center;
+}
+
+.home-info {
+    background-color: aqua;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.Absolute-Center {
+    margin: auto;
+    position: absolute;
+    overflow: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.Relative-Center {
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+    left: 0;
+    right: 0;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+.col-md {
+    display:grid;
+    background-color: aqua;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 10px;
+    justify-items:center; 
+    align-content:center;
+}
+
+btn-default {
+    border: 2px solid black;
+}
+
+.lead {
+    align-self: center;
+}
+
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}

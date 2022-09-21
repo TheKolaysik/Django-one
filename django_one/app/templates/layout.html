@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Основная информация</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
+    <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+            <div class="col-12 col-sm-10 col-md-9 col-lg-8 col-xl-8 body-content Absolute-Center">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'app/scripts/jquery-3.4.1.slim.min.js' %}"></script>
+    <script src="{% static 'app/scripts/popper.min.js' %}"></script>
+    <script src="{% static 'app/scripts/bootstrap.min.js' %}"></script>
+
+</body>
+</html>
